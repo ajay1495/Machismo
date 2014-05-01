@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="f77-7z-sVN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="f77-7z-sVN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -230,19 +230,6 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h33-kK-DNK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnh-HE-toT">
-                                <rect key="frame" x="19" y="269" width="50" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" backgroundImage="cardfront">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OOo-CP-ZNh"/>
-                                    <action selector="touchCardButton:" destination="VIf-ZT-3rk" eventType="touchUpInside" id="Z8X-1E-fu6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGg-lB-HxU">
                                 <rect key="frame" x="77" y="269" width="50" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -324,7 +311,6 @@
                         <outletCollection property="cardButtons" destination="eRe-sq-y2R" id="3UQ-Wm-eb0"/>
                         <outletCollection property="cardButtons" destination="Ant-Oo-QDd" id="HtZ-3B-b1C"/>
                         <outletCollection property="cardButtons" destination="reY-Z2-7oO" id="ze2-Wo-tYC"/>
-                        <outletCollection property="cardButtons" destination="mnh-HE-toT" id="go9-KF-gfP"/>
                         <outletCollection property="cardButtons" destination="oGg-lB-HxU" id="mQo-dM-JpI"/>
                         <outletCollection property="cardButtons" destination="cjH-xI-bl8" id="YPH-7O-n7n"/>
                         <outletCollection property="cardButtons" destination="LI3-7b-RJE" id="rtc-Av-Lhe"/>
