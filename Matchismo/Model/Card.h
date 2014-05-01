@@ -10,6 +10,8 @@
 
 @interface Card : NSObject
 
+////asdfa sdf asdfa sdfa sdfas dfasd
+
 @property (strong, nonatomic) NSString *contents;
 
 @property (nonatomic, getter = isChosen) BOOL chosen;
